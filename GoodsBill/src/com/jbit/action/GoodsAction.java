@@ -12,7 +12,7 @@ public class GoodsAction extends BaseAction {
 	private List<Goods> list;
 	private int id;
 	
-	//通过id获得区域订单信息
+	//通鏍规嵁id鑾峰彇鍖哄煙璁㈠崟淇℃伅
 	public String show(){
 		list=service.getAll(id);
 		return "success";
